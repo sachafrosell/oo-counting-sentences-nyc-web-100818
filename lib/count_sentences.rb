@@ -19,7 +19,7 @@ class String
     array.select do |sentence|
       sentence.to_s != ""
     end 
-    array.length
+    array.length - 1
   end
  
 end
