@@ -16,7 +16,7 @@ class String
 
   def count_sentences
      binding.pry
-    puts self.split((?<!\w\.\w.)(?<![A-Z][a-z]\.)(?<=\.|\?)\s
+    puts self.split((?<!\w\.\w.)(?<![A-Z][a-z]\.)(?<=\.|\?)\s)
 
    
   end
