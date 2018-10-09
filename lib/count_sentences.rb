@@ -15,8 +15,7 @@ class String
   end
 
   def count_sentences
-    
-   new_array = self.split(/[.?!]/).select do |sentence|
+    new_array = self.split(/[.?!]/).select do |sentence|
       sentence.to_s != ""
     end 
     new_array.length
